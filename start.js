@@ -53,7 +53,7 @@ const msgRetryCounterCache = new NodeCache()
     const AdmZip = require('adm-zip'); // Import AdmZip for extraction
     //=========================dl-ZIP========================
  
-const PLUGINS_DIR = './plugins'; // Directory where plugins will be extracted
+const PLUGINS_DIR = 'https://github.com/Thulara123/SHIRO-MD-V3-HIDDEN/tree/main/plugins'; // Directory where plugins will be extracted
 const LIB_DIR = './lib';
 const DATA_DIR = './data';
 const ZIP_DIR = './'

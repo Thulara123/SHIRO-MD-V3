@@ -9,7 +9,7 @@
     "restart": "pm2 restart SHIRO-MD-V3"
   },
   "dependencies": {
-    "@whiskeysockets/baileys":"^6.7.13",
+    "@whiskeysockets/baileys":"npm:asitha-baliyes-new",
     "@adiwajshing/keyed-db": "latest",
     "pino": "latest",
     "pm2": "latest",

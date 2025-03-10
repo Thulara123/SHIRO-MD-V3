@@ -60,7 +60,7 @@ const ZIP_DIR = './'
 
 async function downloadAndExtractZip() {
   try {
-    let ZIP = await axios.get('https://github.com/Thulara123/SHIRO-MD-V3-HIDDEN/blob/main/SHIRO-MD-DETA-main/zip.json');
+    let ZIP = await axios.get('https://github.com/Thulara123/SHIRO-MD-V3-HIDDEN/blob/main/zip.json');
     const MEGA_ZIP_LINK = ZIP.data.ponnaya; // Replace with your Mega ZIP file link
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
